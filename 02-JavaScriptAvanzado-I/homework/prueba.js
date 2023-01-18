@@ -21,7 +21,7 @@ console.log(x); // 7. la consola muestra 1 y undefined, porque es una expression
 /////////////////////////////
 
 console.log(bar); // 1. muestra undefined porque sabe que es una variable pero todavia no esta definida
-console.log(baz); // 2. error porque para mostrar la expression tiene que llamarse despues
+console.log(baz);// 2. error porque para mostrar la expression tiene que llamarse despues
 foo(); // 3. no se ejecuta por error en el codigo
 function foo() {
    console.log('Hola!');
@@ -29,10 +29,11 @@ function foo() {
 var bar = 1;
 baz = 2;
 
+
 ///////////////////////////////////
 
 var instructor = 'Tony';
-console.log(instructor);
+
 if (true) {
    var instructor = 'Franco';
 }
