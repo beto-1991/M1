@@ -58,6 +58,18 @@ function cacheFunction(cb) {
   }
 }
 
+function square(n){
+  return n * n
+}
+
+const squareCache = cacheFunction(square)
+
+squareCache(5)    // invocará a square(5), almacenará el resultado y lo retornará
+squareCache(5)
+
+
+
+
 
 
 //----------------------------------------
