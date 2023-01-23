@@ -28,7 +28,7 @@ function nFibonacci(n) {
     return n;
 }
 else {
-    return nFibonacci(n-1) + nFibonacci(n - 2);
+    return nFibonacci(n - 1) + nFibonacci(n - 2); // literalmente la formula de fibonacci> N es la suma entre el numero anterior a N(n - 1) y el aterior a ese numero (n-2)
 }
 }
 
